@@ -37,7 +37,6 @@ main{
     display: inline-block;
     width: 200px;
     height: 230px;
-    border: 1px solid black;
     border-radius: 10px;
     margin: 15px;
     background-color: white;
@@ -67,6 +66,7 @@ span{
     white-space: nowrap;
 }
 
+
 /* colori diversi per le scritte */
 .violet{
     color: violet;
@@ -74,4 +74,18 @@ span{
 
 .orange{
     color:orange;
+}
+
+
+/* flexo un po' di conoscenza sui selettori avanzati anche se incasina un po'*/
+/* creo transizione al passaggio del mouse */
+.row div:not(#uncover) > img, .row div:not(#uncover) > span{
+    display: none;
+}
+
+.row div:not(#uncover):hover img, .row div:not(#uncover):hover span {
+    display: block;
+}
+.row div:not(#uncover):hover{
+    background: white;
 }
