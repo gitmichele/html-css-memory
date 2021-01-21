@@ -68,13 +68,30 @@ span{
 
 
 /* colori diversi per le scritte */
-.violet{
-    color: violet;
+.purple{
+    color: purple;
 }
 
 .orange{
     color:orange;
 }
+
+.red{
+    color:red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.pink{
+    color: pink;
+}
+
 
 
 /* flexo un po' di conoscenza sui selettori avanzati anche se incasina un po'*/
