@@ -18,3 +18,19 @@ h1{
     text-align: center;
     text-shadow: 1px  1px 2px #777;
 }
+
+
+
+main{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    width: 200px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+}
